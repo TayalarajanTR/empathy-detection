@@ -1,0 +1,17 @@
+{
+  "task": "ER",
+  "allowed_levels": [
+    2
+  ],
+  "input_rows": 30,
+  "valid_rows": 30,
+  "invalid_rows": 0,
+  "failure_counts": {},
+  "notes": [
+    "ER keeps only Strong (2).",
+    "IP keeps only Weak (1).",
+    "EX keeps only Weak (1) and Strong (2).",
+    "If rationales provided, each must be an exact substring of response_post.",
+    "Use --dedup to drop duplicate (seeker_post,response_post) pairs."
+  ]
+}
